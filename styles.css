@@ -1,0 +1,43 @@
+body {
+    color: white;
+    background: #000000;
+    margin: 0px;
+    font-family: "Source Serif 4", serif;
+}
+
+header{
+    border-bottom: solid 2px rgb(235, 114, 114);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(167, 45, 45)
+}
+
+section{
+    background: rgb(49, 15, 15);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+}
+
+img{
+    height: 200px;
+
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+}
